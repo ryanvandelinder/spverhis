@@ -115,7 +115,7 @@ Facilities_x0020_Affected
 IncidentPriority
 Facilities_x0020_Affected0
 Other_x0020_Facilities_x0020_Aff
-Primary_x0020_Culpable_x0020_Sys
+Primary_x0020_Culpable_x0020_Sys <--- This is the culpable system
 Primary_x0020_System_x002f_Appli
 Additional_x0020_System_x0028_s_
 _ColorHex
