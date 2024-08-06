@@ -2,9 +2,9 @@
 try {
     Import-Module ImportExcel
     Import-Module PnP.PowerShell
-    [Reflection.Assembly]::LoadWithPartialName("EPPlus")
+   # cancel epplus [Reflection.Assembly]::LoadWithPartialName("EPPlus")
 } catch [System.Management.Automation.CmdletNotFoundException] {
-    Write-Warning "Required modules not found. Please install ImportExcel, PnP.PowerShell, and EPPlus."
+    Write-Warning "Required modules not found. Please install ImportExcel, PnP.PowerShell."
     exit 1
 }
 
